@@ -1,0 +1,20 @@
+Title: Flatmates Bill Sharer
+
+Description: An app that gets a bill amount as in input for a time period. It then takes into account how many days the
+housemates stayed for and works out their split of the bill. The bill is also output as a PDF.
+
+Objects:
+
+    Bill:
+        amount
+        period
+    Flatmate:
+        name
+        days_in_house
+        pays(Bill)
+    PDFReport:
+        filename
+        generate(flatmate1, flatmate2, bill)
+
+
+
